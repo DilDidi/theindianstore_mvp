@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="100%" height="100%">
+  <defs>
+    <linearGradient id="premiumGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#E5C158" />
+      <stop offset="100%" stop-color="#C59B27" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10, 5)">
+    <path d="M25 70C25 35 40 15 55 15C70 15 85 35 85 70" fill="none" stroke="url(#premiumGold)" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M12 70L98 70" stroke="url(#premiumGold)" stroke-width="2" stroke-linecap="round" />
+    <line x1="55" y1="15" x2="55" y2="7" stroke="url(#premiumGold)" stroke-width="2" stroke-linecap="round" />
+    <circle cx="55" cy="5" r="2" fill="url(#premiumGold)" />
+  </g>
+
+  <text x="120" y="44" font-family="Playfair Display, Cinzel, serif" font-size="20" font-weight="600" fill="url(#premiumGold)" letter-spacing="2">THE INDIAN</text>
+  <text x="120" y="65" font-family="Montserrat, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#2C5234" letter-spacing="6.5">STORE</text>
+</svg>
