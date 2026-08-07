@@ -4,7 +4,9 @@ import API from "../api/axios";
 import { useCartStore } from "../store/useCartStore";
 import { useLangStore } from "../store/useLangStore";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = import.meta.env.PROD 
+  ? "https://theindianstore-backend.onrender.com" 
+  : "http://127.0.0.1:8000";
 
 export default function Shop() {
   const [products, setProducts] = useState([]);
