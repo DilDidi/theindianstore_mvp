@@ -248,7 +248,11 @@ USE_TZ = True
 
 
 # Static files & Media
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "https://theindianstore-mvp.vercel.app",
+    "https://theindianstore.uz",
+]
 
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
