@@ -8,7 +8,9 @@ import { useCartStore } from "../store/useCartStore";
 import { useLangStore } from "../store/useLangStore";
 
 // URL Django бэкенда
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = import.meta.env.PROD 
+  ? "https://theindianstore-backend.onrender.com" 
+  : "http://127.0.0.1:8000";
 
 export default function Home() {
   const [hits, setHits] = useState([]);
