@@ -161,7 +161,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 # Разрешенные хосты (берутся из .env или настроек хостинга)
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost', 'theindianstore-backend.onrender.com').split(',')
 
 
 # Application definition
